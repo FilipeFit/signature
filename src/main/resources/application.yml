@@ -1,0 +1,55 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /signature
+
+logging:
+  file:
+    path: .
+    name: signature.log
+  level:
+    root: info
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    cache-timeout:
+      token-duration: 24
+
+unico:
+  token-url: https://identityqa.acesso.io/oauth2/token
+  envelope-url : https://api-dot-acesso-sign-test.appspot.com/api/v1/service/envelope
+  token-payload:
+    iss: ic_ftorqueto@16964201-4562-452a-8ca8-9e72d9f56d35.iam.acesso.io
+    aud: https://identityqa.acesso.io
+    key: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDRMbXFnQdadyy5
+      vL6pQZsDUhEoqhgGx7VXucXqxGDxDx4eq9edup27OD6GM9NUCozMrx3ARVbLDfe4
+      nPgzAoG2quVN9f6x7C1F5tmhiOAjkRNQcl0mMZ5tGo+7sgaeor3w0nL54238FyyZ
+      QGLJAamoihofusrtchYx3AsmOiiw1jfItxpwMgv4Z6wtLLFuvUPEJtlt2YXpbLQr
+      nU1JN63y8x6HmRGHZUm+nv/iDE+6sPzW6tWIkWUSHH2dyY9TmfsAmfCx4rPlHOkH
+      Wvh5za92kEuKj/VeRfFbgf9dHHeG0PitcMZ36JNFdcBc8fUonmBzSBExwK4L6pD0
+      wLasKcPzAgMBAAECggEAIvcWFMOcWQiWVy0vCQdIK5Pp/kv/3BJBQzpv1D+inGgU
+      drfuQBTTDFnoSXIcHm3s/sE+TcbJLQNWpmrGKXB/0dJapV86hO6e2pItSgyguhEj
+      k0yqORoOCtpnr82fwaAd80SZpx7WYU5WS/8xA7vdaag7mZYVGP76qrbGvkr2Riga
+      ngS1UqAsDvexcP4NDyGDde0rDvCA+njB83UTF2MGXvT826WuMM8euUYVNJStajKF
+      v6FzFrBtFhnt4RiEn+NoVoQ19tBS6+5aiXkcaOfxktuGqfR1y9aeyiZw1yqkt/rl
+      cJf1NvU7zQ8avM0bg29zNoAcUmnrTfwEKV1bNGCfMQKBgQDv0yf04kPsFk/4nOgs
+      IhaXEhanvbQEFUi4H/n4F3GCpozhz0WItN7gV01QZFipBqfuE3D3ySX9acYxN+dh
+      nfrEbmTx1Tf/iWvrJ760s6eykUtXZJpBD2PfYJ2SElYDpjcS6Gxlj1RAxZ9jLJgj
+      8cAXVmVoBfa/k9BloMrf6GvoxwKBgQDfTa56f4u4C4LGekO5kytzo1M+ihAaCoGk
+      unjJJdo6BbICL4DIkMbU5gPNz3RRPYxymT2xnv4hQOAvQSLH8eq9v2SFE/Rf2Dni
+      iLougaoo9Bt1fhY96AsYFclLRhz5BxPznei2YFGy307R8yutNg0a1ynr56KJFyF1
+      GX+qIh2XdQKBgQDkgLFCb0++IyhBPectHbGecTqqymI5vbnSzYzTaCrcDCqRgHbF
+      IWh2Ilhk76dWLSRV/6oUPVB4Go8fGB/a77Yd8P03Oiuny1zK6syWydJPnoZFl3It
+      6ScEj76yjcvsoDM7Tb7yKVVifak2yiePn+ihk8z9BymqMYFPQ5vpKT+fwwKBgFvQ
+      8hP2S7nCKeR4M06jn7MtjbXiSNqcRVA5SB7VDJTc8KOLarWNKeQyK5A9Y8NfvlcE
+      gWR+TlnX9hYX/zgdVXrtrmQ1nz6lhq+JrpwevpuWO5Ak5vpPZfhiROFJk/IlIeQC
+      osQSeKVGwn77MJNI7TyDCf6wwJkDxMMEWATZgDddAoGAZe5w2QElarnIm4SppskY
+      rLKnoxwDQnlZYZmUa5c+WvVbx+qwJ9T64Gg1C7kCq1vipNiL+v9EfMBCBAbGrED2
+      6wH/aeokwRaSHL063YYMujBOO4q1hxutnLXITLJw9rhIQnSceTo4o6LqhzmBqizW
+      tD5RTd/Ixy31d97NwRSJ9zU=
+
+
+
+
